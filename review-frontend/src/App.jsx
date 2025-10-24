@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <nav className="navbar">
-        <h1>🎬 Movie Reviews</h1>
+        <h1>Movie Reviews</h1>
         <div>
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/add" className="nav-link">Add Review</Link>
