@@ -12,6 +12,7 @@
 	<artifactId>review-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>review-backend</name>
+	<packaging>war</packaging>
 	<description>Demo Full Stack Project</description>
 	<url/>
 	<licenses>
@@ -58,6 +59,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>boot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
