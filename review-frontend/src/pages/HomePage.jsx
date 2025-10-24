@@ -14,7 +14,7 @@ const HomePage = () => {
 
   return (
     <div className="home-container">
-      <h2>🎥 Movie Reviews</h2>
+      <h2>Movie Reviews</h2>
       {reviews.length === 0 ? (
         <p>No reviews available.</p>
       ) : (

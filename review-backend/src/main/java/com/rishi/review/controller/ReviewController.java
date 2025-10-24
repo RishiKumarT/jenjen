@@ -18,7 +18,7 @@ public class ReviewController {
 
     @GetMapping("/")
     public String home() {
-        return "🎬 Movie Review API is Running!";
+        return "Movie Review API is Running!";
     }
 
     @PostMapping("/add")
